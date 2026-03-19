@@ -22,8 +22,8 @@
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true,
 
-    /* Vitest globals */
-    "types": ["vitest/globals"]
+    /* Vite client types for import.meta.env */
+    "types": ["vite/client"]
   },
   "include": ["src"]
 }
