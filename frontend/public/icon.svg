@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="100" fill="#7c3aed"/>
+  <circle cx="256" cy="256" r="160" fill="#a855f7" opacity="0.3"/>
+  <!-- Music note -->
+  <g fill="white">
+    <rect x="220" y="160" width="28" height="140" rx="14"/>
+    <rect x="290" y="130" width="28" height="140" rx="14"/>
+    <rect x="220" y="160" width="98" height="28" rx="14"/>
+    <ellipse cx="206" cy="300" rx="34" ry="24"/>
+    <ellipse cx="276" cy="270" rx="34" ry="24"/>
+  </g>
+</svg>
