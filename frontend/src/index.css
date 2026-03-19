@@ -410,3 +410,39 @@ body {
 .empty-state-text {
   font-size: 0.9rem;
 }
+
+/* ── PWA / Mobile ── */
+@media (max-width: 767px) {
+  .app {
+    padding: 0 16px;
+  }
+
+  .app-header {
+    padding: 24px 0 20px;
+  }
+
+  .app-title {
+    font-size: 1.5rem;
+  }
+
+  .app-main {
+    grid-template-columns: 1fr;
+    gap: 16px;
+    padding-bottom: 24px;
+  }
+
+  .playlist-list {
+    max-height: 320px;
+  }
+
+  .player-container iframe {
+    aspect-ratio: 16/9;
+  }
+}
+
+/* Safe area insets for notched phones */
+@supports (padding: env(safe-area-inset-bottom)) {
+  .app {
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+}
