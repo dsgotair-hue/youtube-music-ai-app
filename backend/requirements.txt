@@ -1,0 +1,13 @@
+fastapi
+uvicorn[standard]
+langchain
+langgraph
+langchain-openai
+google-api-python-client
+pydantic
+python-dotenv
+pytest
+pytest-asyncio
+httpx
+hypothesis
+pytest-mock
